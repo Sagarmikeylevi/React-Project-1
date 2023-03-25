@@ -1,0 +1,14 @@
+.userPage {
+    margin-top: 1rem;
+    margin-left: 10%;
+    height: 12rem;
+    width: 80%;
+    background:  #fff;
+}
+
+@media screen and (min-width: 700px)  {
+    .userPage {
+        margin-left: 25%;
+        width: 50%;
+    }
+}

@@ -1,0 +1,15 @@
+.userItem {
+    height: 2rem;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    margin-bottom: 0.5rem;
+}
+
+.userItem p{
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 10px;
+}
