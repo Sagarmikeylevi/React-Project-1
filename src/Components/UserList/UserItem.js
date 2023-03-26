@@ -1,11 +1,15 @@
 import styles from "./UserItem.module.css";
 
 const UserItem = (props) => {
-    return (
-      <div className={styles.userItem}>
+  return (
+    <>
+      {!(props.userName === "" || props.userAge === "") && (
+        <div className={styles.userItem}>
           <p>{props.userName + " ( " + props.userAge + " years old ) "}</p>
-      </div>
-    );
-}
+        </div>
+      )}
+    </>
+  );
+};
 
 export default UserItem;

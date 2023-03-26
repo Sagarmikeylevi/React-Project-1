@@ -6,8 +6,65 @@
     background:  #fff;
 }
 
+
+.invalid {
+    margin-top: 8rem;
+    height: 8rem;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+}
+
+.invalidHeader {
+    height: 3rem;
+    width: 100%;
+    margin-top: -1rem;
+    border-radius: 5px;
+    background: darkmagenta;
+    display: flex;
+    align-items: center;
+    
+}
+
+.invalidHeader p {
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    padding-left: 1rem;
+    letter-spacing: 1px;
+}
+
+.invalidBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.invalidBody p {
+    font-size: medium;
+    height: 2rem;
+    width: 100%;
+}
+
+.invalidBody button {
+    width: 18%;
+    height: 1.8rem;
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+    background: darkorchid;
+    border: none;
+    margin-left: 80%;
+}
+
+
 @media screen and (min-width: 700px)  {
     .userPage {
+        margin-left: 25%;
+        width: 50%;
+    }
+    .invalid {
         margin-left: 25%;
         width: 50%;
     }
